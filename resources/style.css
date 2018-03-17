@@ -65,3 +65,64 @@ html {
   font-size: 2rem;
   line-height: 1.2;
 }
+
+.main .container {
+  display: flex;
+  justify-content: center;
+}
+
+.services {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 8rem;
+  width: 5rem;
+  margin: 3rem 3rem;
+}
+
+.services img {
+  width: 3.5rem;
+}
+
+.services h2 {
+  font-size: 1rem;
+  text-align: center;
+}
+
+.info {
+  margin: 0 2.5%;
+  width: 35%;
+}
+.info h2 {
+  width: 50%;
+  color: white;
+  background-color: cadetblue;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 0.5rem 1.25rem;
+}
+
+.info p {
+  margin-top: 1rem;
+  line-height: 1.4;
+  margin-bottom: 5rem;
+}
+
+footer {
+  background-color: azure;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.copy {
+  display: flex;
+  align-items: center;
+}
+.copy img {
+  height: 1.5rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  margin-left: 4rem;
+  margin-right: 1rem;
+}
