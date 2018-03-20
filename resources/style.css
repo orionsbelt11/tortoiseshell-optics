@@ -24,6 +24,10 @@ html {
   background-color: cadetblue;
 }
 
+.nav #mobile-nav {
+  display: none;
+}
+
 
 .left {
   display: flex;
@@ -143,4 +147,77 @@ footer {
   .slogan h1 {
     font-size: 1.33rem;
   }
+}
+
+@media only screen and (max-width: 720px) {
+
+  .left h2 {
+    display: none;
+  }
+  .banner {
+    background-position: 20%;
+  }
+  .links li{
+    display: none;
+  }
+
+  .nav #mobile-nav {
+    display: block;
+  }
+
+  .slogan {
+   margin-top: 14rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 100%;
+    margin-right: 0;
+  }
+  .slogan h1  {
+    font-size: 1rem;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .main .container {
+    margin: 3.77rem 0;
+    flex-direction: column;
+  }
+
+  .services {
+    margin: 0 auto;
+  }
+
+  .services h2 {
+    font-family: helvetica;
+    font-size: 0.77rem;
+  }
+
+  .services img {
+    margin: 1.54rem 0;
+  }
+
+  .container .info {
+    margin: 0 auto;
+  }
+
+  .info {
+    width: 100%;
+  }
+
+  .info h2 {
+    width: auto;
+    text-align: center;
+  }
+
+  .info p {
+    font-size: 0.77rem;
+    font-family: helvetica;
+  }
+
+  .copy h2 {
+    display: none;
+  }
+
+  .copy img {
+    margin: 4rem auto;
 }
