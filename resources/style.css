@@ -126,3 +126,21 @@ footer {
   margin-left: 4rem;
   margin-right: 1rem;
 }
+
+@media only screen and (max-width: 1024px) {
+  .container {
+    width: 100%;
+  }
+  .banner {
+    height: 22rem;
+    padding-top: 0rem;
+  }
+  .slogan {
+    padding: .75rem 4rem;
+    margin-top: 5rem;
+    margin-right: 2rem;
+  }
+  .slogan h1 {
+    font-size: 1.33rem;
+  }
+}
